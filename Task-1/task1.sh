@@ -12,5 +12,5 @@ touch -d '2 days ago' file$i.txt
 sudo chmod 444 file$i.txt
 sudo chattr +i file$i.txt
 done
-
+sudo -k
 
